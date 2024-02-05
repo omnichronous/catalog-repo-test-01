@@ -21,3 +21,7 @@ config:
       variables:
         destination: ($ project $)/pipeline/variables-($ environment $).yml
         path: pipeline/default/variables.sample.yaml
+    terraform:
+      del-del:
+        destination: ($ project $)/terraform/($ environment $)/del-del.tf
+        path: terraform/default/del-del.tf.sample
